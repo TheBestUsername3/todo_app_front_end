@@ -2,18 +2,37 @@ html{
     font-family: sans-serif;
 }
 
-li{
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 2px solid #2C3E50;
-    color: #E74C3C;
-}
-
 h1{
     display: inline;
     vertical-align: middle;
     font-size: 32px;
     margin: 20px 0px;
     background-color: #f1c40f;
+}
+
+ol{
+    list-style: none;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #90a4ae;
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+li:hover{
+    background-color: #e1f5fe;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #424242;
+    vertical-align: middle;
 }
