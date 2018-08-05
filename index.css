@@ -36,3 +36,18 @@ a{
     color: #424242;
     vertical-align: middle;
 }
+
+input[type="text"], input[type="number"]{
+    font-size: 20px;
+    background-color: #fff;
+    outline: none;
+    border-style:none;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #90a4ae;
+}
+
+div{
+    width: 60%;
+    margin: 20px auto 0px auto;
+}
