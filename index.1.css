@@ -78,3 +78,7 @@ h1{
     text-align: center;
     margin-top: 20;
 }
+
+.completed-todo{
+ text-decoration: line-through;
+}
